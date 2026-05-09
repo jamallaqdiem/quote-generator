@@ -4,9 +4,12 @@ function App() {
   const [quote, setQuote] = useState(null);
   const getQuote = async () => {
     try {
-      const response = await fetch("http://localhost:3000", {
-        method: "GET",
-      });
+      const response = await fetch(
+        "https://firstdeployedapp.hosting.codeyourfuture.io",
+        {
+          method: "GET",
+        },
+      );
       if (!response.ok) {
         throw new Error(`HTTP error, status ${response.status}`);
       }

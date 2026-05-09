@@ -16,6 +16,22 @@ const quotes = [
     quote: "I should have been more kind.",
     author: "Clive James",
   },
+  {
+    quote: "The only way to do great work is to love what you do.",
+    author: "Steve Jobs",
+  },
+  {
+    quote: "It always seems impossible until it's done.",
+    author: "Nelson Mandela",
+  },
+  {
+    quote: "The way to get started is to quit talking and begin doing.",
+    author: "Walt Disney",
+  },
+  {
+    quote: "Life is what happens when you're busy making other plans.",
+    author: "John Lennon",
+  },
 ];
 
 function pickRandomQuote() {
